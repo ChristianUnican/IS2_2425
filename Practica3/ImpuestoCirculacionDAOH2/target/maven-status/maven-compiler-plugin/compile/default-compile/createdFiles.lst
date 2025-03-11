@@ -1,0 +1,5 @@
+es\unican\is2\dao\ContribuyentesDAO.class
+es\unican\is2\dao\H2ServerConnectionManager.class
+es\unican\is2\dao\VehiculosDAO.class
+es\unican\is2\dao\ContribuyenteMapper.class
+es\unican\is2\dao\VehiculoMapper.class

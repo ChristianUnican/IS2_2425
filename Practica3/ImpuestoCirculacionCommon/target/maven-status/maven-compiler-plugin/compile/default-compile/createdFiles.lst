@@ -1,0 +1,9 @@
+es\unican\is2\common\IContribuyentesDAO.class
+es\unican\is2\common\Vehiculo.class
+es\unican\is2\common\Turismo.class
+es\unican\is2\common\Motocicleta.class
+es\unican\is2\common\DataAccessException.class
+es\unican\is2\common\TipoMotor.class
+es\unican\is2\common\IVehiculosDAO.class
+es\unican\is2\common\OperacionNoValidaException.class
+es\unican\is2\common\Contribuyente.class
