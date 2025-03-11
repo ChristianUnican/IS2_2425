@@ -20,4 +20,32 @@
       <version>0.0.1-SNAPSHOT</version>
     </dependency>
   </dependencies>
+<build>
+    <plugins>
+        <!-- Plugin para generar el archivo .jar -->
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-assembly-plugin</artifactId>
+            <version>3.3.0</version> <!-- Cambiar la versión si es necesario -->
+            <configuration>
+                <descriptorRefs>
+                    <descriptorRef>jar-with-dependencies</descriptorRef>
+                </descriptorRefs>
+                <archive>
+                    <manifest>
+                        <mainClass>es.unican.is2.main.Runner</mainClass> <!-- Clase principal -->
+                    </manifest>
+                </archive>
+            </configuration>
+            <executions>
+                <execution>
+                    <phase>package</phase> <!-- Asocia esta configuración al empaquetado -->
+                    <goals>
+                        <goal>single</goal> <!-- Generar un único .jar autocontenido -->
+                    </goals>
+                </execution>
+            </executions>
+        </plugin>
+    </plugins>
+</build>
 </project>
